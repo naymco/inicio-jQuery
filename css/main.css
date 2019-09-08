@@ -72,21 +72,21 @@ nav ul li a .active{
 .sec1{
     width: 100%;
     height: 100vh;
-    background: url(/img/mountain-landscape-2031539_1920.jpg);
+    background: url(https://naymco.github.io/inicio-jQuery/img/mountain-landscape-2031539_1920.jpg);
     background-size: cover;
 }
 
 .sec2{
     width: 100%;
     height: 100vh;
-    background: url(/img/forest-438432_1920.jpg);
+    background: url(https://naymco.github.io/inicio-jQuery/img/forest-438432_1920.jpg);
     background-size: cover;
 }
 
 .img-footer{
     width: 100%;
     height: 100vh;
-    background: url(/img/winter-landscape-2571788_1920.jpg);
+    background: url(https://naymco.github.io/inicio-jQuery/img/winter-landscape-2571788_1920.jpg);
     background-size: cover;
     display: flex;
     
