@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>Efectos JQuery</title>
+</head>
+<body>
+    <div class="responsive-bar">
+        <div class="logo">
+                <img src="/img/logo.png" alt="logo">
+        </div>
+        <div class="menu icon-menu">
+            <h4 id="h4"><i class="icon fas fa-ellipsis-h"></i></h4>
+        </div>
+    </div>
+    <nav id="nav">
+        <div class="logo">
+            <img src="/img/logo.png" alt="logo">
+        </div>
+        <ul id="ul">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portforlio</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <section class="sec1">
+
+    </section>
+    <section class="content">
+        <h1>Bienvenido a mi web</h1>
+        <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse, soluta modi consectetur molestiae voluptatum dolorem. Error sequi itaque omnis blanditiis natus id velit, explicabo magnam ipsa recusandae odit? Ratione!<br>
+                A illo inventore natus architecto asperiores nostrum temporibus odit consequatur obcaecati vitae sed quod aliquam tempore officia porro voluptates ducimus maxime at nulla ipsum rem, hic officiis minus. Ea, molestias. <br>
+                Fuga fugiat cumque eius obcaecati ex ad est. Rem, suscipit dolores voluptatum libero repudiandae pariatur incidunt dicta esse laborum repellendus ab sapiente officiis ad numquam dignissimos possimus officia enim rerum!<br>
+                Ex itaque eaque qui, suscipit veritatis ipsam molestiae voluptatem aliquid est nam, rerum recusandae eveniet repellendus laborum! Suscipit ipsa eaque dolores consequatur molestiae iure, natus voluptate, optio, doloremque eum voluptatibus.<br>
+                Aliquid possimus reprehenderit, alias placeat maxime officiis eaque dolorem saepe, autem odio aspernatur dolore. Perferendis optio quod ducimus modi accusamus, rem laborum cum error officiis expedita reiciendis veritatis eveniet dignissimos.
+        </p>
+    </section>
+    <section class="sec2"></section>
+    <section class="content">
+            <h1>Bienvenido a mi web</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse, soluta modi consectetur molestiae voluptatum dolorem. Error sequi itaque omnis blanditiis natus id velit, explicabo magnam ipsa recusandae odit? Ratione!<br>
+                A illo inventore natus architecto asperiores nostrum temporibus odit consequatur obcaecati vitae sed quod aliquam tempore officia porro voluptates ducimus maxime at nulla ipsum rem, hic officiis minus. Ea, molestias. <br>
+                Fuga fugiat cumque eius obcaecati ex ad est. Rem, suscipit dolores voluptatum libero repudiandae pariatur incidunt dicta esse laborum repellendus ab sapiente officiis ad numquam dignissimos possimus officia enim rerum!<br>
+                Ex itaque eaque qui, suscipit veritatis ipsam molestiae voluptatem aliquid est nam, rerum recusandae eveniet repellendus laborum! Suscipit ipsa eaque dolores consequatur molestiae iure, natus voluptate, optio, doloremque eum voluptatibus.<br>
+                Aliquid possimus reprehenderit, alias placeat maxime officiis eaque dolorem saepe, autem odio aspernatur dolore. Perferendis optio quod ducimus modi accusamus, rem laborum cum error officiis expedita reiciendis veritatis eveniet dignissimos.
+            </p>
+        </section>
+    <section class="sec3">
+        <ul class="social-links">
+            <li> <a href="#"><i class="icon fab fa-github-square"></i></a> </li>
+            <li> <a href="#"><i class="icon fab fa-linkedin"></i></a> </li>
+            <li> <a href="#"><i class="icon fab fa-instagram"></i></a> </li>
+            <li> <a href="#"><i class="icon fas fa-at"></i></a> </li>
+            
+        </ul>
+    </section>
+    <footer class="img-footer">
+        <p>Desarrollado por AlexSantos 2019. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        });
+        $(document).ready(function(){
+            $('.menu h4').click(function(){
+                $('nav ul').toggleClass('active');
+            });
+        });
+     
+
+       /*  $( ".menu #h4" ).click(function(){
+        $( "#nav #ul" ).animate({ opacity: "toggle" }, "slow" );
+        });
+ */
+       
+        
+     
+
+
+    </script>
+    <script src="/js/all.js"></script>
+</body>
+</html>
